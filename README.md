@@ -1,6 +1,6 @@
 # nginx_web_docker
-# Chuẩn bị file
-Copy file source của web vào build/web
+# Prepare
+Copy website file to build/web
 ```
 ├── Dockerfile
 ├── README.md
@@ -19,6 +19,6 @@ Copy file source của web vào build/web
 └── nginx
     └── default.conf
 ```
-# Chạy
+# Run
     source .env
     sudo docker compose up
